@@ -42,7 +42,7 @@ export const LandingPage = () => {
             </div>
             <div
                 className='w-full bg-white  '>
-                <div className='  grid sm:grid-cols-2  '>
+                <div className='  grid   grid-cols-1 sm:grid-cols-2 '>
                     <div className='sm:py-4 sm:px-12 mx-auto sm:mt-[150px]  '>
                         <img className=' ' src={humanity} alt="/" /></div>
 
@@ -59,14 +59,14 @@ export const LandingPage = () => {
 
                 </div>
             </div>
-            <div className='max-w-[1240px] grid grid-cols-1 sm:grid-cols-2 bg-black  h-[100vh] sm:h-[50vh]  '>
+            <div className='max-w-[1240px] grid grid-cols-1 sm:grid-cols-2 bg-black  h-[60vh] '>
                 <div className='ml-[90px]   ' >
-                <div className=' text-center p-5 text-3xl  font-bold sm:mt-[120px] '><Typed strings={["The Beauty in Helping Others"]} typeSpeed={120} backspeed={140} loop /></div>
-                <p className='text-center   text-2xl   '>Did you know that one of the things that you must always take into consideration is the necessity to offer your help and support to others? Once you do this, you will start to live a fulfilling life to the point that you will feel happier than ever. Indeed, there are tons of benefits when you make an effort to reach out to people who need your support.</p></div>
+                <div className=' text-center p-5 text-3xl  font-bold sm:mt-[120px] sm:text-xl '><Typed strings={["The Beauty in Helping Others"]} typeSpeed={120} backspeed={140} loop /></div>
+                <p className='text-center   text-2xl sm:text-xl   '>Did you know that one of the things that you must always take into consideration is the necessity to offer your help and support to others? Once you do this, you will start to live a fulfilling life to the point that you will feel happier than ever. Indeed, there are tons of benefits when you make an effort to reach out to people who need your support.</p></div>
                 <img className=' sm:ml-[600px] sm:mt-10 p-5' src={main2} /></div>
              
             
-            <div className="grid grid-cols-1 sm:grid-cols-3  text-2xl  gap-3 bg-white text-black p-8  ">
+            <div className="grid sm:grid-cols-1 md:grid-cols-3  text-2xl  gap-3 bg-white text-black p-8  mt-4 ">
                 <div className='border border-orange-500 rounded-3xl p-2'>
                     <div className=' col-span-1 text-center mt-[20px] font-bold underline md:underline-offset-4 '>Give Hope For Free</div>
 

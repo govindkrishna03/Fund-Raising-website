@@ -53,7 +53,7 @@ function  UploadDetails(){
     <div className=''>
       <img src={background_img} alt='background' className='mt-20'></img>
     </div>
-    <div className=' md:w-1/4  mt-5 px   mr-4 border border-dotted bg-slate-900 rounded-xl h-[120vh] sm:h-[93vh]  '>
+    <div className=' md:w-1/ 4 mt-5 px   mr-4 border border-dotted rounded-xl h-[120vh] sm:h-[100vh]  '>
       <form className="ml-[50px] mx-[50px]  text-center text-2xl" onSubmit={handleSubmit}>
         <h2 className="text-white font-bold mt-12  text-3xl">Upload Your Details Here</h2>
         <div className="flex flex-col mb-4 ">
@@ -126,7 +126,7 @@ function  UploadDetails(){
             onChange={handleImageChange}
           />
         </div>
-        <button className='bg-green-500 text-white py-2 px-4 rounded' type="submit">Submit</button>
+        <button className='bg-pink-500 text-white py-2 px-4 rounded' type="submit">Submit</button>
       </form>
     </div>
   </div>
