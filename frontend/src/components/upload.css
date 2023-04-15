@@ -1,0 +1,154 @@
+
+
+
+.title{
+  font-size: 30px;
+  font-weight: bolder;
+
+  padding:15px;
+  color: black;
+}
+.background{
+  background-image: url('../assets/humanity.jpg');
+  background-size: center;
+  background-repeat: no-repeat;
+  background-position: cover;
+  background-color: black;
+
+}
+.upload-form {
+  width: 100%;
+  /* max-width: ; */
+  display: flex;
+  flex-direction: column;
+  min-height: 90vh;
+  padding: 50px;
+  border: 1px solid #ccc;
+  border-radius: 5px; 
+  text-align: center; 
+  justify-content:center;
+  background-image: linear-gradient(79deg, #fffefe, #ffedf9 50%, #c9c9c9fc); 
+  opacity:0.9;
+
+  
+ 
+/* display: flex;
+min-height: 100vh;
+align-items: center;
+color: white;
+justify-content: center;
+background-image: linear-gradient(79deg, #1e0707, #090206 50%, #0e0708); */ 
+}
+
+.form-group {
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid rgb(106, 101, 101);
+  border-radius: 50px;
+  font-size: 16px;
+}
+
+@media (max-width: 600px) {
+  .upload-form {
+    max-width: 90%;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="number"],
+  textarea {
+    font-size: 14px;
+  }
+}
+
+/* styles for screens between 600px and 900px */
+   @media (min-width: 600px) and (max-width: 900px) {
+  .upload-form {
+    max-width: 80%;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="number"],
+  textarea {
+    font-size: 14px;
+  }
+} 
+
+/* styles for screens larger than 900px */
+ @media (min-width: 900px) {
+  .upload-form {
+    max-width: 500px;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="number"],
+  textarea {
+    font-size: 16px;
+  }
+}
+
+.upload-form {
+  width: 1000px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 20px;
+  bottom: 20px;
+  border: 1px solid #ccc;
+  margin-left: 1300px;  
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 25px;
+  color: black;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button[type="submit"] {
+  margin-top: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 35px;
+  background-color: #f393c5;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button[type="submit"]:hover {
+  background-color: #5b5e60;
+}

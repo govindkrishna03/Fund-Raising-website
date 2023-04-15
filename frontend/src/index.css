@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+  font-family: 'Outfit', sans-serif;
+}
+
+body{
+  background: black;
+}
+
+h1,h4,p,a{
+  color:#fff;
+  text-decoration: none;
+}
+
+ul{
+  list-style-type: none;
+}
+
+.btn{
+  padding: 12px 32px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  background: rgb(244, 134, 152);
+  color:#222;
+  border: 1 px solid #fff;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.btn-light{
+ background: transparent;
+ color: #fff; 
+}
+
+.btn:hover{
+  background: rgb(102, 100, 100);
+  color:#fff;
+  transition: 0.3s;
+}

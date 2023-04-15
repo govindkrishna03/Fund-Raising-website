@@ -1,0 +1,54 @@
+
+
+.auth-form-container{
+  display: flex;
+  flex-direction: column;
+}
+
+.login-form,.register-form{
+  color: white;
+}
+.auth-form-container{
+  padding: 5rem;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+label{
+  text-align: left;
+  padding: 0.25rem 0;
+  
+}
+label:hover{
+  border: none;
+}
+
+input{
+  margin: 0.5rem 0;
+
+  
+  padding: 1rem;
+  border:none;
+  border-radius: 5px;
+}
+
+.auth-btn{
+  border: none;
+  background-color: rgb(246, 172, 172);
+  padding: 20px;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: medium;
+  font-weight: bold;
+}
+
+.link-btn{
+  background:none;
+  color:white;
+  text-decoration: underline;
+}
+
+
+.auth-form-container:hover, .login-form:hover, .register-form:hover {
+  opacity: 0.8;
+}
