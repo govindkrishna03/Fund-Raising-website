@@ -49,28 +49,34 @@ function Home(){
         <li className='p-4'><Link to="/">Home</Link></li>
         <li className='p-4'>About</li>
         <li className='p-4'><Link to="/home">Donate</Link></li>
-        <li className='p-4'><Link to='/'>Logout</Link></li>
+        <li className='p-4'><Link to='/logout'>Logout</Link></li>
       </ul>
     </div></div>
-      <div className='w-full py-[10rem]  px-4 bg-white '>
-      <div className='max-w-[1240px]  mx-auto gap-8 grid md:grid-cols-3 '>
-            {cards.map((card) => (
-             <div className='w-full shadow-2xl flex flex-col p-4 my-6 rounded-lg hover:scale-105 duration-300  bg-white' >
-                {card.image ? (
-                  <img className='  py-10'src={`http://127.0.0.1:8000${card.image}`} alt={card.name} />
-                ) : (
-                  <div>No image available</div>
-                )}
-                <h2 className='text-2xl font-bold text-center py-8'>Name:{card.name}</h2>
-                <h4 className='age text-black' >Age:{card.age}</h4>
-                <p className=' text-black'>Problem:{card.problem}</p>
-                <h4 className='amount  text-black'>Amount required:{card.amount}</h4>
-                <h4 className='upi text-black' >UPI:{card.upi}</h4>
-                <button className=' bg-[#00df9a] w-[200px] rounded-md mx-auto my-6 text-black py-3' onClick={navigatetodonate}>Donate</button>
-              </div>
-            ))}
+    <div className='w-full  py-10 px-9 sm:px-10 bg-gray-100'>
+  <div className='max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8  '>
+    {cards.map((card) => (
+      <div className='shadow-lg rounded-lg overflow-hidden hover:scale-105 duration-300'>
+        {card.image ? (
+          <img className='object-cover w-full h-64' src={`http://127.0.0.1:8000${card.image}`} alt={card.name} />
+        ) : (
+          <div className='bg-gray-300 w-full h-64 flex items-center justify-center'>No image available</div>
+        )}
+        <div className='p-6'>
+          <h2 className='text-2xl font-bold mb-2'>Name:{card.name}</h2>
+          <p className='text-gray-600 text-lg mb-2'>Problem:{card.problem}</p>
+         
+            <p className='text-gray-700 text-xl'>Age:{card.age} years old</p>
+            <p className='text-gray-700 text-xl'>Amount required: ₹{card.amount}</p>
+       
+          <div className='mt-4 text-center'>
+            <button className='bg-black text-white py-3 px-4 rounded-md ' onClick={navigatetodonate}>Donate</button>
           </div>
         </div>
+      </div>
+    ))}
+  </div>
+</div>
+
    
     </div>
   );

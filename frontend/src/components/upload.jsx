@@ -53,13 +53,13 @@ function  UploadDetails(){
     <div className=''>
       <img src={background_img} alt='background' className='mt-20'></img>
     </div>
-    <div className=' md:w-1/ 4 mt-5 px   mr-4 border border-dotted rounded-xl h-[120vh] sm:h-[100vh]  '>
+    <div className=' md:w-1/ 4 mt-5 px   mr-4 border border-dotted rounded-xl    bg-white text-black  '>
       <form className="ml-[50px] mx-[50px]  text-center text-2xl" onSubmit={handleSubmit}>
-        <h2 className="text-white font-bold mt-12  text-3xl">Upload Your Details Here</h2>
+        <h2 className="text-black font-bold mt-12  text-3xl">Upload Your Details Here</h2>
         <div className="flex flex-col mb-4 ">
           <label className=''>Name:</label>
           <input 
-            className='p-1 mt-2 border rounded-md'
+            className='p-1 mt-2 border  text-gray-800 bg-gray-300 border-black rounded-md'
             type='text' 
             value={name} 
             name='name'
@@ -69,7 +69,7 @@ function  UploadDetails(){
         <div className="flex flex-col mb-4">
           <label className=''>Age:</label>
           <input 
-            className='p-1 mt-1 border rounded-md'
+            className='p-1 mt-1 border   text-gray-800 bg-gray-300 border-black rounded-md'
             type='text' 
             value={age} 
             name='age'
@@ -79,7 +79,7 @@ function  UploadDetails(){
         <div className="flex flex-col mb-4 py-4">
           <label className=''>Email:</label>
           <input 
-            className='p-1 mt-1 border rounded-md'
+            className='p-1 mt-1 border  text-gray-800 bg-gray-300 border-black rounded-md'
             type='email' 
             value={email} 
             name='email'
@@ -89,7 +89,7 @@ function  UploadDetails(){
         <div className="flex flex-col mb-4">
           <label className=''>Problem:</label>
           <input
-            className='p-1 mt-1 border rounded-md text-black'
+            className='p-1 mt-1 border  text-gray-800 bg-gray-300 border-black rounded-md'
             type='text'
             value={problem} 
             name='problem'
@@ -99,7 +99,7 @@ function  UploadDetails(){
         <div className="flex flex-col mb-4">
           <label className=''>Amount:</label>
           <input 
-            className='p-1 mt-1 border rounded-md'
+            className='p-1 mt-1 border  text-gray-800 bg-gray-300 border-black rounded-md'
             type='text' 
             value={amount} 
             name='amount'
@@ -109,7 +109,7 @@ function  UploadDetails(){
         <div className="flex flex-col mb-4">
           <label className=''>UPI:</label>
           <input 
-            className='p-1 mt-1 border rounded-md'
+            className='p-1 mt-1 border   text-gray-800 bg-gray-300 border-black rounded-md'
             type='text' 
             value={upi} 
             name='upi'
@@ -119,7 +119,7 @@ function  UploadDetails(){
         <div className="flex flex-col mb-4">
           <label className=''>Image:</label>
           <input 
-            className='p-1 mt-1  text-white'
+            className='p-1 mt-1   text-white border-black rounded-md'
             accept='image/png,image/jpeg'
             type='file'
             name='image'

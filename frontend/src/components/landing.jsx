@@ -59,14 +59,14 @@ export const LandingPage = () => {
 
                 </div>
             </div>
-            <div className='max-w-[1240px] grid grid-cols-1 sm:grid-cols-2 bg-black  h-[60vh] '>
-                <div className='ml-[90px]   ' >
-                <div className=' text-center p-5 text-3xl  font-bold sm:mt-[120px] sm:text-xl '><Typed strings={["The Beauty in Helping Others"]} typeSpeed={120} backspeed={140} loop /></div>
+            <div className='max-w-[1240px]  h-[100vh] sm:h-[60vh] grid grid-cols-1 sm:grid-cols-2 bg-black  md:h-[60vh]    '>
+                <div className=' md:mt-[210px]  ' >
+                <div className=' text-center p-5 text-3xl  font-bold  sm:text-xl '><Typed strings={["The Beauty in Helping Others"]} typeSpeed={120} backspeed={140} loop /></div>
                 <p className='text-center   text-2xl sm:text-xl   '>Did you know that one of the things that you must always take into consideration is the necessity to offer your help and support to others? Once you do this, you will start to live a fulfilling life to the point that you will feel happier than ever. Indeed, there are tons of benefits when you make an effort to reach out to people who need your support.</p></div>
-                <img className=' sm:ml-[600px] sm:mt-10 p-5' src={main2} /></div>
+                <img className='md:ml-[800px] md:mt-[60px] h-[50vh] w-[100%]' src={main2} /></div>
              
             
-            <div className="grid sm:grid-cols-1 md:grid-cols-3  text-2xl  gap-3 bg-white text-black p-8  mt-4 ">
+            <div className="grid sm:grid-cols-1 md:grid-cols-3  text-2xl  gap-3 bg-white text-black p-8  mt-11 ">
                 <div className='border border-orange-500 rounded-3xl p-2'>
                     <div className=' col-span-1 text-center mt-[20px] font-bold underline md:underline-offset-4 '>Give Hope For Free</div>
 
@@ -80,7 +80,7 @@ export const LandingPage = () => {
                     <p className='p-5 text-center text-xl  bg-white text-black'>Another beauty of helping other people is that you can start to develop or create a culture of kindness around the community. Take note that the persons who receive your help or support will also be inspired to do the same thing to other individuals. If you show others that they have to help without expecting in return, there is a high tendency that they will also work hard to give back to others. Because of this, you should continue to show consistency in extending your helping hands to the right people.</p></div>
             </div>
             <div className=' bg-black  ' >
-                    <div className='grid grid-cols-1 bg-black md:h-[420px] sm:h-[100vh] mt-[30px] mx-[50px] border border-whitespace-pre-line rounded-3xl mb-[20px]'>
+                    <div className='grid grid-cols-1 2xl:h-[50vh] sm:h-[80vh] lg:h-[60vh] md:h-[70vh] bg-black mt-[30px] mx-[50px] border border-whitespace-pre-line rounded-3xl mb-[20px]'>
                         
                         < div className=' text-center  text-3xl  sm:mt-[190px] 'id='about'><div className='sm:mt-[-110px] mt-[-10px] py-8 text-5xl underline'><Typed strings={["About Us"]} typeSpeed={120} backspeed={140} loop /></div>We are here to help the people who are in need of fund for their expensive treatment which they could not afford. So we are connecting the people who wants to help the people by donating a very small amout of their money to the people who need it the most. Donation is not about donating a large amount of money. If a person helps another person to collect atleast Rs. 1 that is also called as donation.</div>
 
