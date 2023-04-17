@@ -37,7 +37,7 @@ function PaymentForm() {
   };
 
   const handleSubmit = (event) => {
-    event.prevenDefault();
+    event.preventDefault();
     setCardError('');
     if (cardNumber === ''){
             setCardError("Please Enter a valid card number: ");
